@@ -44,6 +44,7 @@ public class Controller extends HttpServlet {
 			out.print("<h3>Tu nombre es: "+nombre+"</h3>");
 			out.print("<h3>Tu provincia es: "+provincia+"</h3>");
 			out.print("<h3>Tu género es: "+genero+"</h3>");
+			out.print("<h3>Me gusta el código</h3>");
 			out.print("<a href='./index.jsp'>Volver al formulario</a>");
 			out.print("</body>");
 			out.print("</html>");
